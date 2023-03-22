@@ -1,0 +1,73 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.main p, 
+.main hr, 
+.main span, 
+.main li, 
+.main input {
+  margin-bottom: 5px;
+}
+
+.description {
+  display: inherit;
+  font-size: 0.85rem;
+  width: 100%;
+  z-index: 2;
+}
+
+.todo-next-content {
+  padding-top: 5px;
+  font-size: 0.85em;
+  max-width: 20vw;
+  min-width: 180px;
+}
+
+.items-list {
+  padding-top: 10px;
+}
+
+.description a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.description p {
+  position: relative;
+  margin: 0;
+  padding: 1rem;
+}
+
+.button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  justify-content: left;
+}
+
+.item-card {
+  min-width: 200px;
+}
+
+.card {
+  min-width: 200px;
+  max-width: 30vw;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 1rem 1.2rem;
+}
+
+.card input {
+  padding: 10px;
+  font-size: 0.85em;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: none;
+  width: 90%;
+}
